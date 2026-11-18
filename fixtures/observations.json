@@ -1,5 +1,11 @@
 [
-  {"observation_id":"o-1","source_id":"global-desk","region":"global","language":"en","observed_on":"2026-11-01","topic":"international-cooperation","value":4},
-  {"observation_id":"o-2","source_id":"regional-review","region":"east-asia","language":"zh","observed_on":"2026-11-01","topic":"international-cooperation","value":2},
-  {"observation_id":"o-3","source_id":"global-desk","region":"global","language":"en","observed_on":"2026-11-08","topic":"international-cooperation","value":5}
+  {"observation_id":"o-1","source_id":"global-desk","observed_on":"2026-10-05","topic":"international-cooperation","value":120,"region":"global","metric_id":"reads","metric_version":"v1","content_id":"c-1","relation":"origin"},
+  {"observation_id":"o-2","source_id":"regional-review","observed_on":"2026-10-06","topic":"international-cooperation","value":45,"region":"east-asia","metric_id":"reads","metric_version":"v1","content_id":"c-1","relation":"reshare","path_root":"o-1"},
+  {"observation_id":"o-3","source_id":"regional-review","observed_on":"2026-10-09","topic":"international-cooperation","value":9,"region":"east-asia","metric_id":"comments","metric_version":"v1","content_id":"c-1","relation":"response"},
+  {"observation_id":"o-4","source_id":"global-desk","observed_on":"2026-11-03","topic":"international-cooperation","value":150,"region":"global","metric_id":"reads","metric_version":"v2","content_id":"c-2","relation":"origin"},
+  {"observation_id":"o-5","source_id":"regional-review","observed_on":"2026-11-04","topic":"international-cooperation","value":60,"region":"east-asia","metric_id":"reads","metric_version":"v1","content_id":"c-2","relation":"reshare","path_root":"o-4"},
+  {"observation_id":"o-6","source_id":"culture-wire","observed_on":"2026-11-05","topic":"international-cooperation","value":8,"region":"europe","metric_id":"shares","metric_version":"v1","content_id":"c-2","relation":"reshare","path_root":"o-4"},
+  {"observation_id":"o-7","source_id":"regional-review","observed_on":"2026-11-08","topic":"international-cooperation","value":14,"region":"east-asia","metric_id":"comments","metric_version":"v1","content_id":"c-2","relation":"response"},
+  {"observation_id":"o-8","source_id":"culture-wire","observed_on":"2026-11-05","topic":"international-cooperation","value":12,"region":"europe","metric_id":"comments","metric_version":"v1","content_id":"c-2","relation":"response"},
+  {"observation_id":"o-9","source_id":"culture-wire","observed_on":"2026-11-06","topic":"international-cooperation","value":300,"region":"europe","metric_id":"visits","metric_version":"v1"}
 ]

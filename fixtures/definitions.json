@@ -1,0 +1,7 @@
+[
+  {"metric_id":"reads","version":"v1","behavior":"read","window_days":7,"audience_scope":"all-users","note":"按自然周统计的原始阅读数","valid_to":"2026-10-31"},
+  {"metric_id":"reads","version":"v2","behavior":"read","window_days":28,"audience_scope":"all-users","note":"2026-11 起改为 28 天滚动窗口","valid_from":"2026-11-01"},
+  {"metric_id":"shares","version":"v1","behavior":"share","window_days":7,"audience_scope":"all-users"},
+  {"metric_id":"comments","version":"v1","behavior":"comment","window_days":7,"audience_scope":"followers"},
+  {"metric_id":"visits","version":"v1","behavior":"visit","window_days":1,"audience_scope":"all-users"}
+]
